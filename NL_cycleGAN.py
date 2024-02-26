@@ -11,7 +11,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn.decomposition import PCA
 
 
-class CycleGAN:
+class NL_CycleGAN:
     def __init__(self, disps_filepath, hidden_dim=100, checkpoints_folder="checkpoints"):
         self.disps_filepath = disps_filepath
         self.hidden_dim = hidden_dim
